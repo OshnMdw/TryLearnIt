@@ -8,8 +8,8 @@ $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'trylearnit_moodle';
-$CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbuser    = 'user';
+$CFG->dbpass    = 'user123';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/moodle';
-$CFG->dataroot  = 'C:\\xampp\\moodledata';
+$CFG->wwwroot   = 'http://trylearnit.uomleos.org';
+$CFG->dataroot  = '/home/uomleoso/public_html/moodle';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
